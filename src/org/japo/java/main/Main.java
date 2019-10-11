@@ -22,8 +22,10 @@ import java.util.Random;
  * @author AdrianGV adrian.gimeno.alum@iescamp.es
  */
 public final class Main {
+
     public static final Random RND = new Random();
-    public static void main (String[] args){
+
+    public static void main(String[] args) {
         double altura;
         altura = RND.nextDouble() * (2.50 - 0.50) + 0.50;
         System.out.printf("Altura aleatoria ..........: %.2f metros %n", altura);

@@ -26,8 +26,24 @@ public final class Main {
     public static final Random RND = new Random();
 
     public static void main(String[] args) {
+        
+        // Cosntantes
+        
+        // final double ALTURA_MAX = 2.50;
+        // final double ALTURA_MIN = 0.50;
+        
+        // Variable
+        
         double altura;
+        
+        // Generar dato
+        
+        // altura = RND.nextDouble() * (ALTURA_MAX - ALTURA_MIN) + ALTURA_MIN;
+
         altura = RND.nextDouble() * (2.50 - 0.50) + 0.50;
+        
+        // Mensaje
+
         System.out.printf("Altura aleatoria ..........: %.2f metros %n", altura);
     }
 }
